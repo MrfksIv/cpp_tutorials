@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Classes/Account/Account.h
+string
+-
+
+../Classes/DeepAccount/DeepAccount.h
+
+../Classes/ShallowAccount/ShallowAccount.h
+
+/Users/mrfksiv/CLionProjects/cpp_tutorials/OPP/Classes/DeepAccount/DeepAccount.cpp
+iostream
+-
+DeepAccount.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/OPP/Classes/DeepAccount/DeepAccount.h
+
+/Users/mrfksiv/CLionProjects/cpp_tutorials/OPP/Classes/DeepAccount/DeepAccount.h
+
+/Users/mrfksiv/CLionProjects/cpp_tutorials/OPP/main.cpp
+iostream
+-
+string
+-
+vector
+-
+DeepAccount.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/OPP/DeepAccount.h
+ShallowAccount.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/OPP/ShallowAccount.h
+Account.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/OPP/Account.h
+

@@ -17,6 +17,16 @@ using namespace std;
  * - To access specific addresses in memory. This is useful in embedded systems and systems applications.
  *
  *  NOTE: the asterisk syntax is used both to DECLARE a pointer and DEREFERENCE a pointer!!!
+ *
+ *  WHEN TO USE POINTERS VS. REFERENCES PARAMETERS:
+ *  - Pass by value when the parameter is small and efficient to copy such as for 'primitive' types (int, char, double, etc).
+ *    Vectors, strings and other objects are more expensive and should be avoided if we don't need the function to modify the
+ *    passed parameter.
+ *
+ *  - Pass-by-reference using pointer when the function DOES modify the actual parameter AND the parameter is expensive to copy
+ *
+ *  - Pass-by-reference using pointer using const when the function does NOT modify the actual parameter AND the parameter is
+ *    expensive to copy AND the
  */
 
 int* dynamic_memory_allocation(int val);
@@ -27,6 +37,7 @@ void double_data(int *int_ptr);
 void swap(int &a, int &b);
 void swap_ptr(int *a, int *b);
 int *create_array(size_t size, int init_val = 0);
+int* apply_all(const int arr_a[], size_t sz_arr_a, const int arr_b[], size_t sz_arr_b);
 
 int main() {
     bool section1 = false;
@@ -34,7 +45,8 @@ int main() {
     bool section3 = false;
     bool section4 = false;
     bool section5 = false;
-    bool section6 = true;
+    bool section6 = false;
+    bool sectionChallenge = true;
 
     // We declare pointers by using the asterisk notation:
     // We should always initialize the pointers to the nullptr otherwise it contains garbage data
@@ -84,6 +96,23 @@ int main() {
         cout << "After swap: a = " << a << ", b = " << b << endl;
         swap_ptr(&a, &b);
         cout << "After 2nd swap: a = " << a << ", b = " << b << endl;
+    }
+
+    if (sectionChallenge) {
+        int arr_a[] {1, 2, 3, 4, 5};
+        int arr_b[] {10, 20, 30};
+
+        int arr_a_sz = 5;
+        int arr_b_sz = 3;
+
+        int *int_ptr = apply_all(arr_a, arr_a_sz, arr_b, arr_b_sz);
+
+        for (size_t i = 0; i < arr_a_sz * arr_b_sz; i++) {
+            cout << *(int_ptr + i) << ",";
+        }
+        cout << endl;
+
+        delete [] int_ptr;
     }
     return 0;
 }
@@ -242,6 +271,18 @@ int *create_array(size_t size, int init_val) {
     }
 
     return new_storage;
+}
+
+int* apply_all(const int const arr_a[], size_t sz_arr_a, const int arr_b[], size_t sz_arr_b) {
+    int *int_ptr = new int[sz_arr_a * sz_arr_b];
+
+    size_t cum = 0;
+    for (size_t j {0}; j < sz_arr_b; j++) {
+        for (size_t i {0}; i < sz_arr_a; i++) {
+            *(int_ptr + cum++) = arr_a[i] * arr_b[j];
+        }
+    }
+    return int_ptr;
 }
 
 
