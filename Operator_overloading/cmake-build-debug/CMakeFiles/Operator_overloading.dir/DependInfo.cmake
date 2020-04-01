@@ -5,11 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mrfksiv/CLionProjects/cpp_tutorials/Operator_overloading/main.cpp" "/Users/mrfksiv/CLionProjects/cpp_tutorials/Operator_overloading/cmake-build-debug/CMakeFiles/Operator_overloading.dir/main.cpp.o"
+  "/Users/mrfksiv/CLionProjects/cpp_tutorials/Operator_overloading/src/Mystring.cpp" "/Users/mrfksiv/CLionProjects/cpp_tutorials/Operator_overloading/cmake-build-debug/CMakeFiles/Operator_overloading.dir/src/Mystring.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src"
   )
 
 # Targets to which this target links.

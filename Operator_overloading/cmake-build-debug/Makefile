@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Operator_overloading.dir/build.make CMakeFiles/Operator_overloading.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Mystring.o: src/Mystring.cpp.o
+
+.PHONY : src/Mystring.o
+
+# target to build an object file
+src/Mystring.cpp.o:
+	$(MAKE) -f CMakeFiles/Operator_overloading.dir/build.make CMakeFiles/Operator_overloading.dir/src/Mystring.cpp.o
+.PHONY : src/Mystring.cpp.o
+
+src/Mystring.i: src/Mystring.cpp.i
+
+.PHONY : src/Mystring.i
+
+# target to preprocess a source file
+src/Mystring.cpp.i:
+	$(MAKE) -f CMakeFiles/Operator_overloading.dir/build.make CMakeFiles/Operator_overloading.dir/src/Mystring.cpp.i
+.PHONY : src/Mystring.cpp.i
+
+src/Mystring.s: src/Mystring.cpp.s
+
+.PHONY : src/Mystring.s
+
+# target to generate assembly for a file
+src/Mystring.cpp.s:
+	$(MAKE) -f CMakeFiles/Operator_overloading.dir/build.make CMakeFiles/Operator_overloading.dir/src/Mystring.cpp.s
+.PHONY : src/Mystring.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Mystring.o"
+	@echo "... src/Mystring.i"
+	@echo "... src/Mystring.s"
 .PHONY : help
 
 
