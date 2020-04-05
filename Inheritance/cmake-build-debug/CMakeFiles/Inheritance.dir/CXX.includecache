@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Account.h
+string
+-
+
+../src/Savings_Account.h
+Account.h
+../src/Account.h
+
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/main.cpp
+iostream
+-
+Account.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/Account.h
+Savings_Account.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/Savings_Account.h
+
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/src/Account.cpp
+Account.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/src/Account.h
+iostream
+-
+
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/src/Account.h
+string
+-
+
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/src/Savings_Account.cpp
+Savings_Account.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/src/Savings_Account.h
+iostream
+-
+
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/src/Savings_Account.h
+Account.h
+/Users/mrfksiv/CLionProjects/cpp_tutorials/Inheritance/src/Account.h
+
