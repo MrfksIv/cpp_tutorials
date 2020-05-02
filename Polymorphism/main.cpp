@@ -1,4 +1,3 @@
-#include <iostream>
 /**
  * POLYMORPHISM
  *
@@ -35,9 +34,63 @@
  * To use dynamic polymorphism we need to declare the withdraw() and display() methods of the base Account class as
  * 'virtual' methods. The virtual keyword tells the compiler to NOT bind the call at compile time but rather defer it
  * for runtime.
+ *
+ * REMEMBER:
+ * Whenever we declare virtual methods in a class, we also need to declare a VIRTUAL DESTRUCTOR in the Base class ONLY.
+ *
+ * We can also have Abstract classes that can not be instantiated and are only used as base classes for other derived
+ * classes.
+ * Such classes contain at least ONE PURE VIRTUAL FUNCTION. This is how we declare a pure virtual function:
+ * virtual void function() = 0;
+ *
+ * A concrete class needs to implement all pure abstract methods of its base abstract class if it wants to become
+ * concrete. Otherwise it remains abstract itself.
+ *
+ *
+ * Unlike Java and C#, C++ does not proviate true interfaces. To achieve such behaviour, we use Abstract classes
+ * with pure abstract methods
  * ------------------------------------------------------------------------------------------------------------------
  */
+
+#include <iostream>
+#include <vector>
+#include "Account.h"
+#include "Savings.h"
+#include "Checking.h"
+
+#include "Shape.h"
+#include "Circle.h"
+
+#include "Printable.h"
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
+
+    Account *acc = new Account();
+    Savings *sav = new Savings();
+    Checking *che = new Checking();
+    Account * accVec[] {acc, sav, che};
+
+
+    for (auto acc : accVec) {
+        acc->withdraw(150.0);
+    }
+    std::cout << "=====================================" << std::endl << std::endl;
+
+    delete sav;
+    delete che;
+    std::cout << "=====================================" << std::endl << std::endl;
+
+    Shape *shape = new Circle;
+    shape->rotate();
+    shape->draw();
+
+    delete shape;
+    std::cout << "=====================================" << std::endl << std::endl;
+
+    std::cout << *acc << std::endl;
+    delete acc;
+
     return 0;
+
 }

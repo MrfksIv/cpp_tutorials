@@ -70,17 +70,107 @@ CMakeFiles/Polymorphism.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polymorphism.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/main.cpp -o CMakeFiles/Polymorphism.dir/main.cpp.s
 
+CMakeFiles/Polymorphism.dir/src/Account.cpp.o: CMakeFiles/Polymorphism.dir/flags.make
+CMakeFiles/Polymorphism.dir/src/Account.cpp.o: ../src/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Polymorphism.dir/src/Account.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Polymorphism.dir/src/Account.cpp.o -c /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Account.cpp
+
+CMakeFiles/Polymorphism.dir/src/Account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polymorphism.dir/src/Account.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Account.cpp > CMakeFiles/Polymorphism.dir/src/Account.cpp.i
+
+CMakeFiles/Polymorphism.dir/src/Account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polymorphism.dir/src/Account.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Account.cpp -o CMakeFiles/Polymorphism.dir/src/Account.cpp.s
+
+CMakeFiles/Polymorphism.dir/src/Checking.cpp.o: CMakeFiles/Polymorphism.dir/flags.make
+CMakeFiles/Polymorphism.dir/src/Checking.cpp.o: ../src/Checking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Polymorphism.dir/src/Checking.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Polymorphism.dir/src/Checking.cpp.o -c /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Checking.cpp
+
+CMakeFiles/Polymorphism.dir/src/Checking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polymorphism.dir/src/Checking.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Checking.cpp > CMakeFiles/Polymorphism.dir/src/Checking.cpp.i
+
+CMakeFiles/Polymorphism.dir/src/Checking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polymorphism.dir/src/Checking.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Checking.cpp -o CMakeFiles/Polymorphism.dir/src/Checking.cpp.s
+
+CMakeFiles/Polymorphism.dir/src/Savings.cpp.o: CMakeFiles/Polymorphism.dir/flags.make
+CMakeFiles/Polymorphism.dir/src/Savings.cpp.o: ../src/Savings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Polymorphism.dir/src/Savings.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Polymorphism.dir/src/Savings.cpp.o -c /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Savings.cpp
+
+CMakeFiles/Polymorphism.dir/src/Savings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polymorphism.dir/src/Savings.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Savings.cpp > CMakeFiles/Polymorphism.dir/src/Savings.cpp.i
+
+CMakeFiles/Polymorphism.dir/src/Savings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polymorphism.dir/src/Savings.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Savings.cpp -o CMakeFiles/Polymorphism.dir/src/Savings.cpp.s
+
+CMakeFiles/Polymorphism.dir/src/Shape.cpp.o: CMakeFiles/Polymorphism.dir/flags.make
+CMakeFiles/Polymorphism.dir/src/Shape.cpp.o: ../src/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Polymorphism.dir/src/Shape.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Polymorphism.dir/src/Shape.cpp.o -c /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Shape.cpp
+
+CMakeFiles/Polymorphism.dir/src/Shape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polymorphism.dir/src/Shape.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Shape.cpp > CMakeFiles/Polymorphism.dir/src/Shape.cpp.i
+
+CMakeFiles/Polymorphism.dir/src/Shape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polymorphism.dir/src/Shape.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Shape.cpp -o CMakeFiles/Polymorphism.dir/src/Shape.cpp.s
+
+CMakeFiles/Polymorphism.dir/src/Circle.cpp.o: CMakeFiles/Polymorphism.dir/flags.make
+CMakeFiles/Polymorphism.dir/src/Circle.cpp.o: ../src/Circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Polymorphism.dir/src/Circle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Polymorphism.dir/src/Circle.cpp.o -c /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Circle.cpp
+
+CMakeFiles/Polymorphism.dir/src/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polymorphism.dir/src/Circle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Circle.cpp > CMakeFiles/Polymorphism.dir/src/Circle.cpp.i
+
+CMakeFiles/Polymorphism.dir/src/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polymorphism.dir/src/Circle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Circle.cpp -o CMakeFiles/Polymorphism.dir/src/Circle.cpp.s
+
+CMakeFiles/Polymorphism.dir/src/Printable.cpp.o: CMakeFiles/Polymorphism.dir/flags.make
+CMakeFiles/Polymorphism.dir/src/Printable.cpp.o: ../src/Printable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Polymorphism.dir/src/Printable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Polymorphism.dir/src/Printable.cpp.o -c /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Printable.cpp
+
+CMakeFiles/Polymorphism.dir/src/Printable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Polymorphism.dir/src/Printable.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Printable.cpp > CMakeFiles/Polymorphism.dir/src/Printable.cpp.i
+
+CMakeFiles/Polymorphism.dir/src/Printable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Polymorphism.dir/src/Printable.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Printable.cpp -o CMakeFiles/Polymorphism.dir/src/Printable.cpp.s
+
 # Object files for target Polymorphism
 Polymorphism_OBJECTS = \
-"CMakeFiles/Polymorphism.dir/main.cpp.o"
+"CMakeFiles/Polymorphism.dir/main.cpp.o" \
+"CMakeFiles/Polymorphism.dir/src/Account.cpp.o" \
+"CMakeFiles/Polymorphism.dir/src/Checking.cpp.o" \
+"CMakeFiles/Polymorphism.dir/src/Savings.cpp.o" \
+"CMakeFiles/Polymorphism.dir/src/Shape.cpp.o" \
+"CMakeFiles/Polymorphism.dir/src/Circle.cpp.o" \
+"CMakeFiles/Polymorphism.dir/src/Printable.cpp.o"
 
 # External object files for target Polymorphism
 Polymorphism_EXTERNAL_OBJECTS =
 
 Polymorphism: CMakeFiles/Polymorphism.dir/main.cpp.o
+Polymorphism: CMakeFiles/Polymorphism.dir/src/Account.cpp.o
+Polymorphism: CMakeFiles/Polymorphism.dir/src/Checking.cpp.o
+Polymorphism: CMakeFiles/Polymorphism.dir/src/Savings.cpp.o
+Polymorphism: CMakeFiles/Polymorphism.dir/src/Shape.cpp.o
+Polymorphism: CMakeFiles/Polymorphism.dir/src/Circle.cpp.o
+Polymorphism: CMakeFiles/Polymorphism.dir/src/Printable.cpp.o
 Polymorphism: CMakeFiles/Polymorphism.dir/build.make
 Polymorphism: CMakeFiles/Polymorphism.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Polymorphism"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Polymorphism"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Polymorphism.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

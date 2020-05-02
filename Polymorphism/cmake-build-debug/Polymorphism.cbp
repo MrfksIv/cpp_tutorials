@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -65,6 +66,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include"/>
@@ -81,6 +83,42 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/main.cpp">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Account.cpp">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Account.h">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Checking.cpp">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Checking.h">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Circle.cpp">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Circle.h">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Printable.cpp">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Printable.h">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Savings.cpp">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Savings.h">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Shape.cpp">
+			<Option target="Polymorphism"/>
+		</Unit>
+		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/src/Shape.h">
 			<Option target="Polymorphism"/>
 		</Unit>
 		<Unit filename="/Users/mrfksiv/CLionProjects/cpp_tutorials/Polymorphism/CMakeLists.txt">
